@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M7 Auto Dealership</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/dealership-logo.png" alt="Dealership Logo" class="logo">
+        <h1>M7 Auto Dealership</h1>
+        <p>Quality, Style, Confidence</p>
+    </header>
+<section class="car-list">
+    <!--Car 1-->
+    <div class="car-card">
+        <div class="slideshow-container" id="car1-slideshow">
+        <img src="images/car1-1.jpg" class="car-slide active">
+        <img src="images/car1-2.jpg" class="car-slide">
+        <img src="images/car1-3.jpg" class="car-slide">
+        <button class="prev" onclick="plusSlides(-1, 'car1-slideshow')">&#10094;</button>
+        <button class="next" onclick="plusSlides(1, 'car1-slideshow')">&#10095;</button>
+        </div>
+        <h2><img src="images/toyota-logo.png" alt="Toyota" class="brand-logo">Toyota Allison 2017</h2>
+        <p>Price: Ksh980,000</p>
+        <p>Reliable and fuel-efficient. Perfect for everyday driving</p>
+        <a href="images/cars1.jpg" download class="download-btn">Download Images</a>
+    </div>
+</section>
+<footer>
+    <p>Contact us at m7autodealership@yahoo.com | +254716690534</p>
+    <p>
+        <a href="https://wa.me/message/254716690534" target="_blank" class="whatsapp-link"></a>
+    </p>
+</footer>
+
+<script src="script.js"></script>  
+</body>
+</html>
